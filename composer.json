@@ -1,0 +1,31 @@
+{
+    "name": "fmccoy/gooey",
+    "description": "Views package for Laravel",
+    "type": "package",
+    "require": {
+        "illuminate/support": "^5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank McCoy",
+            "email": "frankmccoy.d@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Gooey\\": "src/"
+        }
+    },
+    "extra": {
+      "laravel": {
+        "providers": [
+          "Gooey\\Providers\\GooeyServiceProvider"
+        ],
+        "aliases": {
+            "Gooey": "Gooey\\Facades\\GooeyFacade"
+        }
+    }
+  }
+}
