@@ -3,7 +3,7 @@
     "description": "Views package for Laravel",
     "type": "package",
     "require": {
-        "illuminate/support": "^5.*"
+        "illuminate/support": "^5.6"
     },
     "license": "MIT",
     "authors": [
